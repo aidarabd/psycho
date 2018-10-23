@@ -12,11 +12,6 @@ public class home {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("index");
         return modelAndView;
-
-    }
-    @RequestMapping("/test")
-    public String test(){
-        return "home.html";
     }
 
 }
